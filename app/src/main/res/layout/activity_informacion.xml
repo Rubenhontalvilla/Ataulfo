@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informacion">
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="391dp"
+        android:layout_height="714dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="361dp"
+        android:layout_height="208dp"
+        app:layout_constraintBottom_toBottomOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/space"
+        app:layout_constraintTop_toTopOf="@+id/space"
+        app:layout_constraintVertical_bias="0.094">
+
+        <ImageView
+            android:id="@+id/Instituto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/instituto2" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="@+id/space"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="@+id/space"
+        app:layout_constraintTop_toTopOf="@+id/space"
+        app:layout_constraintVertical_bias="0.428">
+
+        <TextView
+            android:id="@+id/tvDireccion"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Dirección: "
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="259dp"
+        android:layout_height="72dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.062">
+
+        <TextView
+            android:id="@+id/tvDireccion2"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="P.º Menéndez Pelayo, 4, 39700 Castro Urdiales, Cantabria"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="121dp"
+        android:layout_height="62dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintVertical_bias="0.151">
+
+        <TextView
+            android:id="@+id/tvTlf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Teléfono: "
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="251dp"
+        android:layout_height="63dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout8"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6"
+        app:layout_constraintVertical_bias="0.117">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="942 86 06 37"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        app:layout_constraintVertical_bias="0.144">
+
+        <TextView
+            android:id="@+id/tvProvincia"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Provincia: "
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/space"
+        app:layout_constraintVertical_bias="0.733">
+
+        <TextView
+            android:id="@+id/tvProvinciaInsertada"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cantabria"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="383dp"
+        android:layout_height="62dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        app:layout_constraintVertical_bias="0.215">
+
+        <Button
+            android:id="@+id/btnLlegar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="COMO LLEGAR" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="371dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="@+id/space"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout12">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="114dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="256dp"
+            android:layout_marginBottom="2dp"
+            app:srcCompat="@drawable/logofacebook" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="97dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/imageView9"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/logo_twitter" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="111dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/logoyoutube" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="103dp"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="269dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/logo_instituto" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

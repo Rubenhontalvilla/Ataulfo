@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutinfo"
+        android:layout_width="294dp"
+        android:layout_height="56dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195">
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="INFORMACIÓN" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayouteso"
+        android:layout_width="294dp"
+        android:layout_height="48dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutbach"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutinfo"
+        app:layout_constraintVertical_bias="0.482">
+
+        <Button
+            android:id="@+id/btnESO"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="ESO" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutbach"
+        android:layout_width="294dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="162dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutFp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutinfo"
+        app:layout_constraintVertical_bias="0.253">
+
+        <Button
+            android:id="@+id/btnBach"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BACHILLERATO" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutFp"
+        android:layout_width="296dp"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutAe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutinfo"
+        app:layout_constraintVertical_bias="0.81">
+
+        <Button
+            android:id="@+id/btnFP"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="FP" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAe"
+        android:layout_width="297dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="424dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutinfo"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/btnAE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ACTIVIDADES EXTRAESCOLARES" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
